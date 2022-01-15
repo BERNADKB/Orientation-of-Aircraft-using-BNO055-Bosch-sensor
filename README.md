@@ -1,0 +1,2 @@
+# Orientation-of-Aircraft-using-BNO055-Bosch-sensor
+This project deals with the determination of the absolute orientation of a model aircraft. An on-board 9-axis sensor (Bosch BNO 055) measures for each spatial direction the linear acceleration, angular speed and the static magnetic field of the earth. From these quantities the sensor calculates the thee Euler angles and outputs them via the I2C interface to arduio UNO. Using processing displays the roll, pitch and heading angle of the model aircraft.
